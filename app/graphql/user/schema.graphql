@@ -1,0 +1,12 @@
+extend type Query {
+  user(name: String!): User
+}
+
+extend type Mutation {
+    setUser(name: String!): String
+}
+
+type User {
+  name: String!
+  age: Int!
+}
