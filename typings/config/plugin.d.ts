@@ -16,6 +16,7 @@ import 'egg-jsonp';
 import 'egg-view';
 import 'egg-apollo-server';
 import 'egg-mongoose';
+import 'egg-redis';
 import 'egg-validate';
 import 'egg-router-plus';
 import { EggPluginItem } from 'egg';
@@ -35,6 +36,7 @@ declare module 'egg' {
     view?: EggPluginItem;
     'apollo-server'?: EggPluginItem;
     mongoose?: EggPluginItem;
+    redis?: EggPluginItem;
     validate?: EggPluginItem;
     routerPlus?: EggPluginItem;
   }

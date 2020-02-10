@@ -22,6 +22,12 @@ const plugin: EggPlugin = {
     package: 'egg-mongoose',
   },
 
+  // redis 插件
+  redis: {
+    enable: true,
+    package: 'egg-redis',
+  },
+
   // 请求校验插件
   validate: {
     package: 'egg-validate',
