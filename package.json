@@ -1,15 +1,15 @@
 {
-  "name": "awsome-bff",
+  "name": "awsome-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "just node server",
   "private": true,
   "egg": {
     "typescript": true,
     "declarations": true
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-awsome-bff",
-    "stop": "egg-scripts stop --title=egg-server-awsome-bff",
+    "start": "egg-scripts start --daemon --title=egg-server-awsome-server",
+    "stop": "egg-scripts stop --title=egg-server-awsome-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test-local": "egg-bin test",

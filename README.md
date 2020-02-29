@@ -1,4 +1,4 @@
-# Awsome-bff
+# Awsome-server
 
 ### Development
 
